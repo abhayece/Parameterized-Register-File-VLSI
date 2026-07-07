@@ -1,0 +1,169 @@
+$date
+	Mon Jul  6 10:06:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_register_file $end
+$var wire 8 ! read_data2 [7:0] $end
+$var wire 8 " read_data1 [7:0] $end
+$var parameter 32 # ADDR_WIDTH $end
+$var parameter 32 $ DATA_WIDTH $end
+$var parameter 32 % NUM_REGISTERS $end
+$var reg 1 & clk $end
+$var reg 4 ' read_address1 [3:0] $end
+$var reg 4 ( read_address2 [3:0] $end
+$var reg 1 ) reset $end
+$var reg 4 * write_address [3:0] $end
+$var reg 8 + write_data [7:0] $end
+$var reg 1 , write_enable $end
+$var integer 32 - errors [31:0] $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 4 . read_address1 [3:0] $end
+$var wire 4 / read_address2 [3:0] $end
+$var wire 1 ) reset $end
+$var wire 4 0 write_address [3:0] $end
+$var wire 8 1 write_data [7:0] $end
+$var wire 1 , write_enable $end
+$var wire 8 2 read_data2 [7:0] $end
+$var wire 8 3 read_data1 [7:0] $end
+$var parameter 32 4 ADDR_WIDTH $end
+$var parameter 32 5 DATA_WIDTH $end
+$var parameter 32 6 NUM_REGISTERS $end
+$var integer 32 7 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 6
+b1000 5
+b100 4
+b10000 %
+b1000 $
+b100 #
+$end
+#0
+$dumpvars
+bx 7
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+0,
+b0 +
+b0 *
+1)
+b0 (
+b0 '
+0&
+b0 "
+b0 !
+$end
+#10000
+b10000 7
+1&
+#20000
+0&
+0)
+#25000
+b1100 (
+b1100 /
+b101 '
+b101 .
+#30000
+1&
+#40000
+0&
+#50000
+1&
+#51000
+1,
+b10100101 +
+b10100101 1
+b11 *
+b11 0
+#60000
+0&
+#70000
+1&
+#71000
+0,
+#76000
+b10100101 "
+b10100101 3
+b11 '
+b11 .
+#80000
+0&
+#90000
+1&
+#91000
+1,
+b1010101 +
+b1010101 1
+b111 *
+b111 0
+#100000
+0&
+#110000
+1&
+#111000
+b10001 +
+b10001 1
+b11 *
+b11 0
+#120000
+0&
+#130000
+b10001 "
+b10001 3
+1&
+#131000
+0,
+#136000
+b1010101 !
+b1010101 2
+b111 (
+b111 /
+#140000
+0&
+#141000
+b11111111 +
+b11111111 1
+b1110 *
+b1110 0
+#150000
+1&
+#155000
+b0 "
+b0 3
+b1110 '
+b1110 .
+#160000
+0&
+#170000
+1&
+#171000
+1,
+b0 *
+b0 0
+#180000
+0&
+#190000
+1&
+#191000
+0,
+#196000
+b0 '
+b0 .
+#200000
+0&
+#201000
